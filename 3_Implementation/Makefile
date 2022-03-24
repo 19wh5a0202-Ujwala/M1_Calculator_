@@ -5,7 +5,7 @@ BUILD = Build
 # ALL source code files
 SRC = src/calculator_operations.c
 # All test source files
-TEST_SRC = test/test_calculator_operations.c ../unity/unity.c
+TEST_SRC = test/test_calculator_operations.c ../unity/unity.c -I../unity
 
 INC = -Iinc\
 -Iunity
